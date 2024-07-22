@@ -1,0 +1,50 @@
+{
+  "name": "analytics-ui",
+  "description": "Analytics UI created with Nuxt 3 + Tailwind CSS",
+  "version": "0.0.1",
+  "author": {
+    "name": "Behon Baker",
+    "email": "behon.baker@yahoo.com",
+    "url": "https://behonbaker.com"
+  },
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev -p 3001",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "clean": "rm -rf .nuxt dist node_modules package-lock.json yarn.lock && npm i",
+    "format:prettier": "prettier --write ."
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "@types/chart.js": "^2.9.41",
+    "@types/node": "^20.14.10",
+    "nuxt": "^3.12.3",
+    "nuxt-icon": "^0.6.10",
+    "prettier": "^3.3.2",
+    "prettier-plugin-tailwindcss": "^0.6.5",
+    "shadcn-nuxt": "^0.10.4",
+    "tailwind-scrollbar": "^3.1.0",
+    "vue": "^3.4.31",
+    "vue-router": "^4.4.0"
+  },
+  "dependencies": {
+    "@morev/vue-transitions": "^3.0.2",
+    "@pinia-plugin-persistedstate/nuxt": "^1.2.1",
+    "@pinia/nuxt": "^0.5.1",
+    "@tanstack/vue-table": "^8.19.3",
+    "@vueuse/nuxt": "^10.11.0",
+    "axios": "^1.7.2",
+    "chart.js": "^4.4.3",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "lucide-vue-next": "^0.411.0",
+    "nuxt-headlessui": "^1.2.0",
+    "pinia": "^2.1.7",
+    "radix-vue": "^1.9.2",
+    "tailwind-merge": "^2.4.0",
+    "tailwindcss-animate": "^1.0.7",
+    "vue-chartjs": "^5.3.1"
+  }
+}
