@@ -20,7 +20,7 @@
     "@nuxtjs/tailwindcss": "^6.12.1",
     "@types/chart.js": "^2.9.41",
     "@types/node": "^20.14.10",
-    "nuxt": "^3.12.3",
+    "nuxt": "^3.13.2",
     "nuxt-icon": "^0.6.10",
     "prettier": "^3.3.2",
     "prettier-plugin-tailwindcss": "^0.6.5",
